@@ -239,6 +239,12 @@ body {
 
   @media  screen and (max-width:600px){
 
+    main{
+      display: grid;
+      place-items: center;
+      width: 600px;
+    }
+
    .nav{
    display: none;
    
@@ -262,6 +268,10 @@ body {
       justify-content: center;
       align-items: center;
       
+    }
+    footer{
+      text-align: center;
+      width: 100%;
     }
       
 
