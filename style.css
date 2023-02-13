@@ -285,6 +285,7 @@ body {
         align-self: flex-start;
 
         transition: .4s transform;
+        padding: 0;
 
         
     }
@@ -334,6 +335,7 @@ body {
       width: 12rem;
       
       font-size: 18px;
+      display: inline-block;
     }
     .nav__link li a{
       padding: 0;
