@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi portafoio</title>
+</head>
+<body>
+     <header class="hero">
+      
+      <nav class="container nav" id="nav">
+        
+        <ul class="nav__link">
+          <li><a href="#sobremi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#nav" class="nav__hamburguer"><i class="fa-solid fa-bars icon"></i></a>
+        <a href="#" class="nav__close"><i class="fa-solid fa-xmark icon"></i></a>
+      </nav>
+      
+    </header>
+    <main>
+      <section id="sobre-mi" >
+        <div class="perfil" id="sobremi">
+            <img class="profile" src="./perfil.png" alt="">
+            
+          </div>
+          <article>
+          
+       
+        <h2 >Soy Carlos Navarro </h2>
+        <p class="sobremi"> Me especializo en desarrollador de software.</p>
+        <a href="./hoja de vida- .pdf"><button  type="submit">Descargar CV</button></a>
+          </article>
+      </section>
+      <hr>
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <h3>Blog de café</h3>
+            
+            <a href="https://stunning-cascaron-e17185.netlify.app/index.html">
+                <img src="./cafe.PNG" alt="">
+               <p>Creación de un blog, solo HTML y CSS</p></a>
+            
+          </li>
+          <li>
+            <h3>Weather</h3>
+            
+            <a href="https://k-andres38.github.io/weather-html-css-js/">
+                <img src="./weather.PNG" alt="">
+                <p>Consumo de API REST con JavaScript</p></a>
+            
+          </li>
+          
+          <li>
+            <h3>Dashboard</h3>
+            
+            <a href="https://k-andres38.github.io/Dashboard-CSS-HTML/">
+                <img src="./Dashboard.PNG" alt="">
+                <p>Dashboard solo HTML y CSS</p></a>
+            
+          </li>
+          <li>
+            <h3>Plataforma Eductativa</h3>
+            
+            <a href="http://plataforma-virtual-2022.000webhostapp.com/php/public/index.php">
+                <img src="./plataforma.PNG" alt="">
+               <p>Plataforma en PHP, HTML y CSS</p></a>
+            
+          </li>
+          
+         
+        </ul>
+      </section>
+      <hr>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea><br>
+          
+          
+            <button  type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Carlos Navarro 2023</p>
+    </footer>
+    
+</body>
+</html>
